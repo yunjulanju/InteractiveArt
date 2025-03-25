@@ -29,6 +29,6 @@ function draw(){
     if(mouseIsPressed&&mouseButton===LEFT&&mouseY>210&&pmouseY>210){  
         strokeWeight(w)
         stroke(c)
-        line(mouseX,mouseY,pmouseX,pmouseY) //Pen
+        line(mouseX,mouseY,pmouseX,pmouseY) //Pen pmouseX,Y가 한프레임씩 좌표를 기억해줘서 pen 느낌을 내게 할 수 있는.
     }
 }
